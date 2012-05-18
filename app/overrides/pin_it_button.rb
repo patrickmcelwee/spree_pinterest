@@ -5,6 +5,8 @@ Deface::Override.new(:virtual_path => "shared/_products",
 		     :disabled => true)
 
 Deface::Override.new(:virtual_path => "products/show",
-                     :insert_after => "#main-image",
-                     :text => "<%= pin_it_button(@product) %>",
+                     :insert_after => "#thumbnails",
+                     :text => %q{<div id="pin-it" data-url="<%= product_url(@product) %>" data-description="<%= @product.name %>">
+			     	<%= pin_it_button(@product) %>
+			     </div>},
                      :name => "show_pin_it")
