@@ -1,3 +1,3 @@
-Spree::Core::Engine.routes.draw do
+Spreestore::Application.routes.draw do
   # Add your extension routes here
 end
