@@ -3,7 +3,7 @@ module Spree
     def pin_it_button(product)
       return if product.images.empty?
 
-      url = escape product_url(product)
+      url = escape spree.product_url(product)
       media = escape absolute_image_url(product.images.first.attachment.url)
       description = escape product.name
 
