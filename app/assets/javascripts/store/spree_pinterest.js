@@ -1,4 +1,4 @@
-//= require store/spree_core
+//= require store/spree_frontend
 
 (function() {
     window.PinIt = window.PinIt || { loaded:false };

@@ -10,9 +10,9 @@ Gem::Specification.new do |s|
   s.description = 'This extension provides a Pinterest "Pin it" button for your Spree product images.'
   s.required_ruby_version = '>= 1.8.7'
 
-  s.author            = 'Chad Boyd'
-  s.email             = 'chad@genuitytech.com'
-  s.homepage          = 'http://genuitytech.com'
+  s.author            = 'Patrick McElwee'
+  s.email             = 'patrick@sewliberated.com'
+  s.homepage          = 'http://sewliberated.com'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
